@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: (rgb(200, 250, 255));
+}
+
+/* Sidebar styling */
+.sidebar {
+  height: 100%;
+  width: 150px;
+  position: fixed; /* Stays in place */
+  top: 0px;
+  left: 0;
+  background-color: rgb(220, 247, 255);
+  padding-top: 20px;
+  z-index: 2;
+}
+
+/* Sidebar links */
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(26, 0, 183);
+  display: block; /* Stack links vertically */
+  position: relative;
+  top: 20px;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+}
+
+/* Hover effect */
+.sidebar a:hover {
+  background-color: rgb(255, 228, 205);
+}
+
+
+header{
+    width: 1125px;
+    height: 100px;
+    background-color: rgb(160, 204, 255);
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    left: 150px;
+    z-index: 2;
+}
+
+.header{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: rgb(0, 13, 67);
+}
+#map{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 220px;
+    top: 100px;
+}
+
+#paragraph1{
+    position: relative;
+    left: 560px;
+    top: 250px;
+    height: 90px;
+    width: 500px;
+    color: rgb(0, 13, 67);
+    text-align: left;
+    line-height: 20px ;
+    letter-spacing: 1px;
+
+}
+#title{
+    position: relative;
+    top: 130px;
+    left: 480px;
+    color: rgb(0, 13, 67);
+}
+
+#bass{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 700px;
+}
+#paragraph2{
+    position: relative;
+    left: 200px;
+    top: 250px;
+    height: 90px;
+    width: 500px;
+    color: rgb(0, 13, 67);
+    text-align: left;
+    line-height: 20px ;
+    letter-spacing: 1px;
+}
+#paragraph3{
+    position: relative;
+    left: 250px;
+    top: 10px;
+    height: 90px;
+    width: 900px;
+    color: rgb(0, 13, 67);
+    text-align: center;
+    line-height: 20px ;
+    letter-spacing: 1px;
+}
+body{
+margin: 0;
+font-family: 'Times New Roman', Times, serif;
+overflow-x: hidden;
+}
+
+.content {
+padding: 20px;
+text-align: center;
+}
+

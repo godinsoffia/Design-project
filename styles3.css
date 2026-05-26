@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: (rgb(200, 250, 255));
+}
+
+/* Sidebar styling */
+.sidebar {
+  height: 100%;
+  width: 150px;
+  position: fixed; /* Stays in place */
+  top: 0px;
+  left: 0;
+  background-color: rgb(220, 247, 255);
+  padding-top: 20px;
+  z-index: 2;
+}
+
+/* Sidebar links */
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(26, 0, 183);
+  display: block; /* Stack links vertically */
+  position: relative;
+  top: 20px;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+}
+
+/* Hover effect */
+.sidebar a:hover {
+  background-color: rgb(255, 228, 205);
+}
+header{
+    width: 1125px;
+    height: 100px;
+    background-color: rgb(160, 204, 255);
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    left: 150px;
+    z-index: 2;
+}
+
+.header{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: rgb(0, 13, 67);
+}
+
+section{
+    position: relative;
+    top: 200px;
+    left: 200px;
+    color: rgb(0, 13, 67);
+}
+p{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    height: 90px;
+    width: 800px;
+    color: rgb(0, 13, 67);
+    text-align: left;
+    line-height: 20px ;
+    letter-spacing: 1px;
+}
+table{
+    border-width: 2px;
+    border-color: rgb(0, 13, 67);
+    border-style: groove;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table th{
+    text-align: center;
+    font-size: larger;
+}
+table tr td{
+    border-width: 2px;
+    border-color: rgb(0, 13, 67);
+    border-style: groove;
+}
+body{
+margin: 0;
+font-family: 'Times New Roman', Times, serif;
+overflow-x: hidden;
+}
+
+.content {
+padding: 20px;
+text-align: center;
+}
+

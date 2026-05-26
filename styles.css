@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: (rgb(200, 250, 255));
+}
+
+/* Sidebar styling */
+.sidebar {
+  height: 100%;
+  width: 150px;
+  position: fixed; /* Stays in place */
+  top: 0px;
+  left: 0;
+  background-color: rgb(220, 247, 255);
+  padding-top: 20px;
+  z-index: 2;
+}
+
+/* Sidebar links */
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(26, 0, 183);
+  display: block; /* Stack links vertically */
+  position: relative;
+  top: 20px;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+}
+
+/* Hover effect */
+.sidebar a:hover {
+  background-color: rgb(255, 228, 205);
+}
+
+
+header{
+    width: 1125px;
+    height: 100px;
+    background-color: rgb(160, 204, 255);
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    left: 150px;
+    z-index: 2;
+}
+
+.header{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: rgb(0, 13, 67);
+}
+#bass {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 265px;
+    top: 150px;
+    z-index: 1;
+}
+#bridge {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 565px;
+    top: 150px;
+    z-index: 1;
+}
+#scroll {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 865px;
+    top: 150px;
+    z-index: 1;
+}
+
+section{
+    width: 1150px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: 500px;
+    left: 150px;
+    z-index: 1;
+}
+p{
+    position: relative;
+    left: 110px;
+    top: 10px;
+    height: 90px;
+    width: 900px;
+    color: rgb(0, 13, 67);
+    text-align: center;
+    line-height: 20px ;
+    letter-spacing: 1px;
+}
+#paragraph2{
+    position: relative;
+    top: -10px;
+} 
+body{
+margin: 0;
+font-family: 'Times New Roman', Times, serif;
+overflow-x: hidden;
+}
+
+.content {
+padding: 20px;
+text-align: center;
+}
+

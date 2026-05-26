@@ -1,0 +1,55 @@
+footer {
+background-color: rgb(0, 13, 67);
+color: white;
+padding: 30px;
+text-align: center;
+position: relative;
+top: 200px;
+left: 55px;
+}
+
+footer h2 {
+margin-bottom: 20px;
+}
+
+footer form {
+max-width: 400px;
+margin: auto;
+}
+
+footer input,
+footer textarea {
+width: 100%;
+padding: 12px;
+margin-bottom: 15px;
+border: none;
+border-radius: 5px;
+font-size: 14px;
+}
+
+footer textarea {
+height: 100px;
+resize: none;
+}
+
+footer button {
+width: 100%;
+padding: 12px;
+background-color: #c4ced7;
+color: rgb(54, 28, 131);
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+}
+
+footer button:hover {
+background-color: rgb(54, 28, 131);
+color: #c4ced7;
+}
+
+.copyright {
+margin-top: 20px;
+font-size: 12px;
+color: #aaa;
+}
